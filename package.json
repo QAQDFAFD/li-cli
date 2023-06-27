@@ -1,12 +1,15 @@
 {
-  "name": "li-cli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "li-cli",
+    "version": "0.0.1",
+    "description": "基于 vue 二次封装的脚手架",
+    "main": "index.js",
+    "bin": {
+        "li-cli": "./index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
 }
