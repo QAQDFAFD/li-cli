@@ -1,5 +1,5 @@
 {
-    "name": "li-cli",
+    "name": "@li-jiajun/li-cli",
     "version": "0.0.1",
     "description": "基于 vue 二次封装的脚手架",
     "main": "index.js",
