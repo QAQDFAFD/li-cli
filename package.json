@@ -1,10 +1,11 @@
 {
     "name": "@li-jiajun/li-cli",
-    "version": "0.0.1",
+    "version": "0.0.4",
     "description": "基于 vue 二次封装的脚手架",
+    "type": "module",
     "main": "index.js",
     "bin": {
-        "li-cli": "./index.js"
+        "li-cli": "./lib/index.js"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +16,13 @@
         "access": "public",
         "registry": "https://registry.npmjs.org/"
     },
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "@babel/core": "^7.22.5",
+        "commander": "^11.0.0",
+        "ejs": "^3.1.9",
+        "fs-extra": "^11.1.1",
+        "inquirer": "^9.2.7",
+        "picocolors": "^1.0.0"
+    }
 }
