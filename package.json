@@ -1,6 +1,6 @@
 {
     "name": "@li-jiajun/li-cli",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "基于 vue 二次封装的脚手架",
     "type": "module",
     "main": "index.js",
@@ -20,9 +20,12 @@
     "dependencies": {
         "@babel/core": "^7.22.5",
         "commander": "^11.0.0",
+        "download-git-repo": "^3.0.2",
         "ejs": "^3.1.9",
+        "figlet": "^1.6.0",
         "fs-extra": "^11.1.1",
         "inquirer": "^9.2.7",
+        "nanospinner": "^1.1.0",
         "picocolors": "^1.0.0"
     }
 }
