@@ -1,0 +1,160 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fff;
+    color: black;
+    font-size: 16px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    /* 隐藏滚动条 */
+    scrollbar-width: none; /* firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+}
+body::-webkit-scrollbar {
+    display: none; /* Chrome Safari */
+}
+td,
+th,
+caption {
+    font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    border: none;
+}
+ol,
+ul,
+li {
+    list-style: none;
+}
+input,
+textarea,
+select,
+button {
+    font: 14px Verdana, Helvetica, Arial, sans-serif;
+}
+table {
+    border-collapse: collapse;
+}
+
+/* css common */
+/* 清除浮动 */
+.clearfix:after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    *zoom: 1;
+}
+/* 用于测试的样式 */
+.test {
+    background-color: deeppink;
+}
+/* flex 布局系列 */
+.flex {
+    display: flex;
+}
+.column {
+    flex-direction: column;
+}
+.row {
+    flex-direction: row;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.j-center {
+    justify-content: center;
+}
+.a-center {
+    align-items: center;
+}
+.j-start {
+    justify-content: flex-start;
+}
+.a-start {
+    align-items: flex-start;
+}
+.j-between {
+    justify-content: space-between;
+}
+.j-around {
+    justify-content: space-around;
+}
+/* 文字系列 */
+.t-center {
+    text-align: center;
+}
+.t-bold {
+    font-weight: bold;
+}
+/* 块状元素居中 */
+.m-0-auto {
+    margin: 0 auto;
+}
+/* 定位 */
+.relative {
+    position: relative;
+}
+.fixed {
+    position: fixed;
+}
+.absolute {
+    position: absolute;
+}
