@@ -1,6 +1,6 @@
 {
 	"name": "@li-jiajun/li-cli",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"description": "基于 vue、vite 二次封装的脚手架，用于快速开发",
 	"type": "module",
 	"main": "index.js",
